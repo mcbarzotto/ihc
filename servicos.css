@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 1100px;
+    background-color: #F0F0F0;
+}
+
+header {
+    background-color: #322418d3; 
+    color: white;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-left: 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #d9a95b;
+}
+
+
+.container {
+    width: 100%; 
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+h2 {
+    font-size: 28px;
+    color: #322418;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.grid-container {
+    max-width: 1200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(autp-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-gap: 10px;
+    justify-items: center;
+    width: 80%;
+    margin: 0 auto;
+    }
+  .service {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+           max-width: 1200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(autp-fit, minmax(200px, 1fr));
+    gap: 2rem;
+       
+}
+
+
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+    padding: 15px;
+    text-align: center;
+}
+
+.card-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+}
+
+footer {
+    background-color: #1c0f05e1;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .contato,
+footer .horarios {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+    text-align: left;
+}
+
+footer p {
+    margin: 5px 0;
+}
